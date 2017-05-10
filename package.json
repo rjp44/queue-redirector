@@ -1,0 +1,24 @@
+{
+  "name": "queue-redirector",
+  "version": "0.0.1",
+  "description": "A simple Node project to interact with queues on an IPCortex service to move calls around ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjp44/queue-redirector.git"
+  },
+  "keywords": [
+    "IPCortex",
+    "API",
+    "Queue"
+  ],
+  "author": "Rob Pickering",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjp44/queue-redirector/issues"
+  },
+  "homepage": "https://github.com/rjp44/queue-redirector#readme"
+}
