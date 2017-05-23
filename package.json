@@ -4,7 +4,8 @@
   "description": "A simple Node project to interact with queues on an IPCortex service to move calls around ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect-brkcd ./ index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/rjp44/queue-redirector/issues"
   },
-  "homepage": "https://github.com/rjp44/queue-redirector#readme"
+  "homepage": "https://github.com/rjp44/queue-redirector#readme",
+  "dependencies": {
+    "ipcortex-pabx": "github:ipcortex/node-api",
+    "node-config-env": "^1.1.0"
+  }
 }
